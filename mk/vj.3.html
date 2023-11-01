@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mk vj3 (Jakov Budak)</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<style>
+    input {
+      display: inline;
+    }
+    </style>
+
+</head>
+<body>
+    <form>
+            <fieldset>
+                <legend >Ko ste vi?</legend>
+
+                <label for="ime">Ime-</label>
+                <input type="text" id="ime">
+                <label for="prezime">Prezime-</label>
+                <input type="text" id="prezime">
+                <label for="dob">Dob-</label>
+                <input type="number" id="dob">
+                <label for="Spol">Spol-</label>
+            <input type="radio" value="M" id="M" name="spol"><label for="M">muški</label> 
+            <input type="radio" value="F" id="F" name="spol"><label for="F">ženski</label> 
+            </fieldset>   
+            <hr color="red">
+            <fieldset>
+                <legend >Nešto o Vama</legend>
+                <label" for="godišnje doba">Najdraže godišnje doba</label>
+                <select id="godišnje doba">
+                    <option value=""></option>
+                    <option value="jesen">Jesen</option>
+                    <option value="zima">Zima</option>
+                    <option value="proljeće">Proljeće</option>
+                    <option value="ljeto">Ljeto</option>
+                </select>
+                <label  for="kuhinje">Najdraža kuhinja</label>
+                    <input list="kuhinje" name="kuhinje" placeholder="...">
+                    <datalist id="kuhinje">
+                        <option value="Talijanska"></option>
+                        <option value="Tailandska"></option>
+                        <option value="Japanska"></option>
+                        <option value="Kineska"></option>
+                        <option value="Indijksa"></option>
+                        <option value="Grčka"></option>
+                        <option value="Turska"></option>
+                        <option value="Indonezijska"></option>
+                        <option value="Francuska"></option>
+                        <option value="Hrvatska"></option>
+                        <option value="Mexička"></option>
+                        <option value="Ostale"></option>
+                    </datalist>
+                    <input type="reset" value="Izbriši">
+                    <input type="submit" value="Pošalji">
+
+            </fieldset> 
+
+    </form>
+    <label>
+        <button onclick="myFunction()">Ocjena vježbe 3</button>
+<script>
+    function myFunction() {
+        var broj1 = parseInt(prompt("Upisi broj od 0-100", ""));
+    }
+</script>
+    </label>
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
+
